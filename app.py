@@ -19,7 +19,7 @@ st.markdown("""
         font-size: 36px;
         font-weight: bold;
         margin-bottom: 20px;
-        color: white;
+        color: grey;
     }
     .info {
         display: flex;
@@ -52,7 +52,7 @@ total_ips = data['IP'].nunique()
 # Display total locations and IPs in a horizontal layout
 st.markdown(f"""
 <div class="info">
-    <div>Total Locations: N/A</div>
+    
     <div>Avg Latitude: {data['Latitude'].mean():.6f}</div>
     <div>Avg Longitude: {data['Longitude'].mean():.6f}</div>
 </div>
