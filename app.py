@@ -51,8 +51,7 @@ total_ips = data['IP'].nunique()
 
 # Display total locations and IPs in a horizontal layout
 st.markdown(f"""
-<div class="info">
-    
+<div class="info">    
     <div>Avg Latitude: {data['Latitude'].mean():.6f}</div>
     <div>Avg Longitude: {data['Longitude'].mean():.6f}</div>
 </div>
